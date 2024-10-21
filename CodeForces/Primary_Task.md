@@ -60,6 +60,22 @@ NO
 
 ---
 
+### Explanation
+
+The task revolves around identifying whether a number could have been written in a misrepresented form of `10^x`. The key idea is that the integer would have started with '1', followed by '0', and might have missed the exponentiation symbol.
+
+For example:
+- `105` could be `10^5`.
+- `1019` could be `10^19`.
+
+But:
+- `100` is not a valid miswriting of `10^x` since it has only two digits after `1` and `0`.
+
+The algorithm checks:
+- If the number starts with '1' followed by '0'.
+- The next digit should be greater than 1 for it to be valid or the number should have more than three digits where the third digit (after '1' and '0') is greater than 0.
+
+---
 
 ### Solve in CPP
 ```
