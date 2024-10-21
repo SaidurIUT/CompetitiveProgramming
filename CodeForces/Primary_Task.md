@@ -95,7 +95,7 @@ int main(){
 ---
 
 
-###Solve in Python
+### Solve in Python
 
 ```
 t = int(input())  # Read the number of test cases
