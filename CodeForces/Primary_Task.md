@@ -51,3 +51,10 @@ NO
 ---
 
 **Note**: This problem requires checking if a number could have been miswritten as `10^x`, where `x ≥ 2`. You should determine whether the number follows the pattern of missing the exponentiation symbol in a power of 10.
+
+
+### Tags
+  *implementation
+  *math
+  *strings
+  *800
