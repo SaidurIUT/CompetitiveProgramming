@@ -92,6 +92,29 @@ int main(){
 
 ```
 
+---
+
+
+###Solve in Python
+
+```
+t = int(input())  # Read the number of test cases
+
+for _ in range(t):
+    temp = input()  # Read the input string
+
+    # Check if the first two characters are '1' and '0'
+    if temp[0] == '1' and temp[1] == '0':
+        if len(temp) > 3 and int(temp[2]) > 0:
+            print("YES")
+        elif int(temp[2]) > 1:
+            print("YES")
+        else:
+            print("NO")
+    else:
+        print("NO")
+```
+
 
 
 
