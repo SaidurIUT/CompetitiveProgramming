@@ -47,14 +47,52 @@ YES
 NO
 ```
 
+### Tags
+* implementation
+* math
+* strings
+* 800
+
 
 ---
 
 **Note**: This problem requires checking if a number could have been miswritten as `10^x`, where `x ≥ 2`. You should determine whether the number follows the pattern of missing the exponentiation symbol in a power of 10.
 
+---
 
-### Tags
-  *implementation
-  *math
-  *strings
-  *800
+
+### Solve in CPP
+```
+#include<iostream>
+using namespace std;
+
+int main(){
+    int t;
+    string temp;
+    cin >> t;
+    
+    while(t--){
+        cin >> temp;
+        if(temp[0] == '1' && temp[1] == '0' ){
+            if(temp.length() > 3 && temp[2]-'0'>0){
+                cout <<"YES" << endl;
+            } else if(temp[2]-'0'>1){
+                cout <<"YES" << endl;
+            } else {
+                cout <<"NO" << endl;
+            }
+            
+        }else{
+            cout <<"NO" << endl;
+        }
+    }
+    
+    return 0;
+}
+
+```
+
+
+
+
+
