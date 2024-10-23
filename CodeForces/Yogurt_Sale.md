@@ -72,6 +72,7 @@ int main(){
 
 ```
 ---
+### Python
 
 ```python
 def yogurt_sale(t, test_cases):
