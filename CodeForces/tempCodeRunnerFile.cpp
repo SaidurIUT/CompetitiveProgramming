@@ -1,0 +1,1 @@
+cout << ans << "+ (" << k << "-" << time << ")/" << resetTimeOnceFallin0 << endl;
